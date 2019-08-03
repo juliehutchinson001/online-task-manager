@@ -1,0 +1,38 @@
+{
+  "name": "asana-backend",
+  "version": "1.0.0",
+  "description": "asana backend project for deployment\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js",
+    "test": "jest --watch --expand --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliehutchinson001/online-task-manager.git"
+  },
+  "keywords": [
+    "asana",
+    "api",
+    "node",
+    "express",
+    "javascript",
+    "css",
+    "html"
+  ],
+  "author": "Julie Hutchinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliehutchinson001/online-task-manager/issues"
+  },
+  "homepage": "https://github.com/juliehutchinson001/online-task-manager#readme",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

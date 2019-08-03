@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task Manager</title>
+
+    <meta name="description" content="Asana api application" >
+    <meta name="keywords" content="asana, api, asana task, ui" >
+
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+  </head>
+
+  <body>
+    <header class="project-header">
+      <img class="project-header__logo" src="./imgs/asana_logo.png" alt="logo">
+
+      <div class="project-header__main">
+        <h1 class="project-header__title">Task Manager</h1>
+        <h2 class="project-header__id">By Julie Hutchinson</h2>
+      </div>
+    </header>
+
+    <div class="project-body">
+      <header class="task__actions">
+        <button class="btn btn--primary">Add Task</button>
+        <div>
+          <button class="btn btn--secondary">Show All</button>
+        </div>
+
+      </header>
+
+      <section class="task-list"></section>
+
+    </div>
+
+    <footer class="project-footer">
+      <small class="project-footer__date">
+        <span>Created:</span>May, 2018
+      </small>
+    </footer>
+
+    <script src="./js/api.js"></script>
+    <script src="./js/events.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
