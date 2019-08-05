@@ -9,4 +9,4 @@
 <br />
 <br />
 
-![asana-img](https://github.com/juliehutchinson001/javascript_practice/blob/master/API/asana_take_home_Julie_Hutchinson/src/imgs/asana.jpg)
+![asana-img](https://github.com/juliehutchinson001/online-task-manager/blob/master/imgs/asana.jpg)
