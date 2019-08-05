@@ -1,7 +1,9 @@
 # Asana's API Task Manager
 
->* This is a new feature using Asana's API for users that allows them to hide, delete, update, create and show all tasks they have in their personal accounts from Asana.
->* It was built with Javascript, HTML and CSS.
+>* This is an Asana clone that mocks Asana's task management.
+>* It allows you to get, create, hide, show, update and delete tasks.
+>* This app uses Asana's API to store the tasks. The technologies that I used are HTML, CSS, JavaScript.
+>* [Find a live link here](https://juliehutchinson001.github.io/online-task-manager).
 
 <br />
 <br />
